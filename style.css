@@ -1,0 +1,206 @@
+@font-face {
+    font-family: severino ;
+    src: url(./sinera/Sinera.otf);
+}
+
+
+
+body{
+    font-family:severino;
+margin: 0;
+padding: 0;
+background-color: rgb(255, 255, 255);
+display: flex;
+place-items: center;
+}
+
+h1{
+    font-family: severino;
+}
+
+header{
+background-color: rgb(99, 99, 97);
+color: wheat;
+padding: 10px 0;
+text-align: center;
+
+}
+
+header h1{
+    margin: 20px;
+    /* background-color: rgb(66, 66, 66); */
+    
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px ;
+    
+}
+
+nav li a :hover{
+    color: rgb(255, 0, 0);
+background: none;
+background-color: aqua;
+}
+
+main{
+padding: 50px ;
+width: 75%;
+margin: auto;
+
+}
+
+h2{
+    color: wheat;
+}
+
+table{
+
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px ;
+}
+
+
+table, th,td {
+    border: 1px solid #ccc;
+padding: 10px ;
+text-align: left;
+}
+
+figure{
+display: inline-block;
+margin: 20px ;
+text-align: center;
+
+}
+
+img{
+width: 200px ;
+height: auto;
+
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+ width: 100%;
+max-width: 12rem;
+background: #adadad;
+padding: 9rem;
+border-radius: 3%;
+box-shadow:0 0 1.8rem rgba(0, 0, 0, 0.15);
+}
+
+ label{
+    width: 100%;
+color: #000000;
+align-self: flex-start;
+transition: 0.15s linear;
+}
+
+label:focus-within{
+    color: rgb(0, 0, 0);
+}
+
+
+input{
+    font-size: 1.1875rem;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    border: none;
+    border-color: rgb(0, 0, 0);
+    border-bottom-width: 1px;
+    border-bottom-style:dotted ;
+    margin-bottom: 3rem;
+    transition: 0.15 linear;
+    background: none;
+}
+
+input:focus{
+outline: none;
+border-color: rgb(0, 0, 0);
+
+}
+
+button{
+
+font-size: 0.8125rem;
+line-height:2rem ;
+font-weight: 700;
+text-transform: uppercase;
+width: 80%;
+padding: 1rem 2rem ;
+cursor: pointer;
+background: transparent;
+color: rgb(0, 0, 0);
+border: 1px solid currentColor;
+border-radius: 4px ;
+margin-top: 0.5rem ;
+transition: 0.25s;
+}
+
+button:hover,
+button:focus{
+
+outline: none;
+background: rgb(255, 255, 255);
+font-size: 0.875rem;
+font-weight: 600;
+transition: 0.3s;
+
+}
+
+a:hover,
+a:focus{
+outline: none;
+color: rgb(114, 111, 111);
+}
+
+a:first-of-type{
+    margin-top: 3rem;
+}
+
+a+a{
+    margin-top: 1.125rem;
+}
+
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
